@@ -3,19 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portafolio profesional de Libardo Beltrán Yepes, Analista de Ciberseguridad especializado en operaciones SOC, análisis de alertas e investigación de indicadores de compromiso.">
+  <meta name="description" content="Portafolio de Libardo Beltrán Yepes: analista de ciberseguridad especializado en operaciones SOC, monitorización, análisis de alertas y respuesta a incidentes.">
+  <meta name="theme-color" content="#081321">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Libardo Beltrán Yepes | Cybersecurity Analyst">
+  <meta property="og:description" content="Operaciones SOC, análisis de amenazas y desarrollo de herramientas de ciberseguridad.">
   <title>Libardo Beltrán Yepes | Cybersecurity Analyst</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Libardo Beltrán Yepes</h1>
-    <p>Cybersecurity Analyst | SOC | SIEM | Threat Detection</p>
-    <p>Security Monitoring · Incident Response · Threat Intelligence</p>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <header class="site-header">
+    <nav class="navigation" aria-label="Navegación principal">
+      <a class="brand" href="#home">LB<span>.</span></a>
+      <div class="nav-links">
+        <a href="#about">Perfil</a>
+        <a href="#skills">Competencias</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#contact">Contacto</a>
+      </div>
+    </nav>
+
+    <div class="hero" id="home">
+      <p class="eyebrow">CYBERSECURITY · SECURITY OPERATIONS</p>
+      <h1>Libardo Beltrán Yepes</h1>
+      <p class="hero-role">Cybersecurity Analyst <span>|</span> SOC <span>|</span> SIEM <span>|</span> Threat Detection</p>
+      <p class="hero-description">
+        Monitorización de seguridad, análisis de alertas, investigación de IoC
+        y desarrollo de soluciones prácticas para operaciones de ciberseguridad.
+      </p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#projects">Explorar proyectos</a>
+        <a class="button button-secondary" href="https://www.linkedin.com/in/libardo-beltran-yepes" target="_blank" rel="noopener noreferrer">Ver LinkedIn</a>
+      </div>
+      <div class="hero-tags" aria-label="Áreas principales">
+        <span>SOC Operations</span>
+        <span>Incident Response</span>
+        <span>Threat Intelligence</span>
+      </div>
+    </div>
   </header>
 
-  <main>
-    <section id="about">
+  <main id="main">
+    <section id="about" class="section">
+      <p class="section-kicker">01 / PERFIL</p>
       <h2>Sobre mí</h2>
       <p>
         Analista de Ciberseguridad con experiencia en operaciones SOC, monitorización de eventos,
@@ -24,103 +56,139 @@
         Exabeam, Microsoft Sentinel, Splunk, CrowdStrike, Microsoft Defender y Netskope.
       </p>
       <p>
-        Complemento mi experiencia operativa con proyectos prácticos de laboratorio y desarrollo
-        de herramientas propias, con especial interés en la inteligencia de amenazas, la automatización
-        de análisis y la mejora continua de las capacidades de detección y respuesta.
+        Complemento mi experiencia operativa con laboratorios técnicos y desarrollo de herramientas
+        propias. Me interesa seguir creciendo en detección y respuesta, inteligencia de amenazas,
+        automatización y mejora continua de los procesos de seguridad.
       </p>
-    </section>
-
-    <section id="skills">
-      <h2>Habilidades técnicas</h2>
-      <div class="skills-category">
-        <h3>Seguridad y operaciones SOC</h3>
-        <ul>
-          <li>SIEM: Exabeam, Microsoft Sentinel, Splunk</li>
-          <li>EDR / XDR: CrowdStrike, Microsoft Defender</li>
-          <li>CASB: Netskope</li>
-          <li>Wazuh, análisis de alertas, correlación de eventos e investigación de IoC</li>
-          <li>VirusTotal, AbuseIPDB y AlienVault OTX</li>
-        </ul>
-      </div>
-
-      <div class="skills-category">
-        <h3>Redes y sistemas</h3>
-        <ul>
-          <li>Wireshark, Nmap, TCP/IP, IDS/IPS y análisis de tráfico</li>
-          <li>Windows Server, Linux (Ubuntu/Debian)</li>
-          <li>Análisis de vulnerabilidades y revisión de eventos de seguridad</li>
-        </ul>
-      </div>
-
-      <div class="skills-category">
-        <h3>Desarrollo y automatización</h3>
-        <ul>
-          <li>Python, FastAPI, SQL, SQLite, Bash y PL/SQL</li>
-          <li>APIs REST, Git y GitHub</li>
-        </ul>
+      <div class="focus-panel">
+        <h3>Enfoque profesional</h3>
+        <p>Validar señales, contextualizar eventos, documentar hallazgos y aportar información útil para que los equipos de seguridad puedan tomar decisiones fundamentadas.</p>
       </div>
     </section>
 
-    <section id="projects">
+    <section id="skills" class="section">
+      <p class="section-kicker">02 / CAPACIDADES</p>
+      <h2>Competencias técnicas</h2>
+      <div class="skills-grid">
+        <article class="skills-category">
+          <h3>Operaciones SOC</h3>
+          <ul>
+            <li>Análisis, clasificación y priorización de alertas</li>
+            <li>Correlación de eventos e investigación de IoC</li>
+            <li>Documentación y seguimiento de incidentes</li>
+            <li>Revisión y ajuste de reglas y casos de uso</li>
+          </ul>
+        </article>
+        <article class="skills-category">
+          <h3>SIEM · EDR · CASB</h3>
+          <ul>
+            <li>SIEM: Exabeam, Microsoft Sentinel, Splunk</li>
+            <li>EDR: CrowdStrike, Microsoft Defender</li>
+            <li>CASB: Netskope</li>
+            <li>Wazuh y análisis de eventos de seguridad</li>
+          </ul>
+        </article>
+        <article class="skills-category">
+          <h3>Threat Intelligence</h3>
+          <ul>
+            <li>VirusTotal, AbuseIPDB y AlienVault OTX</li>
+            <li>Reputación y enriquecimiento de IoC</li>
+            <li>Análisis de IP, dominios, hashes y URLs</li>
+          </ul>
+        </article>
+        <article class="skills-category">
+          <h3>Redes y sistemas</h3>
+          <ul>
+            <li>TCP/IP, Wireshark, Nmap, IDS/IPS</li>
+            <li>Windows Server y Linux (Ubuntu/Debian)</li>
+            <li>Revisión de vulnerabilidades y tráfico de red</li>
+          </ul>
+        </article>
+        <article class="skills-category">
+          <h3>Desarrollo y automatización</h3>
+          <ul>
+            <li>Python, FastAPI, SQL, SQLite</li>
+            <li>Bash, PL/SQL y APIs REST</li>
+            <li>Git y GitHub</li>
+          </ul>
+        </article>
+      </div>
+      <p class="skills-note">Las herramientas y competencias reflejan experiencia práctica, formación y proyectos de laboratorio en distintos niveles.</p>
+    </section>
+
+    <section id="projects" class="section">
+      <p class="section-kicker">03 / TRABAJO PRÁCTICO</p>
       <h2>Proyectos destacados</h2>
 
-      <div class="project">
-        <h3>KYROS SOC — Plataforma de análisis e inteligencia de amenazas</h3>
+      <article class="project project-featured">
+        <div class="project-topline"><span class="project-label">PROYECTO PRINCIPAL</span><span class="project-status">MVP · v0.6.0</span></div>
+        <h3>KYROS SOC</h3>
+        <p class="project-subtitle">Plataforma de análisis e inteligencia de amenazas</p>
         <p>
           Desarrollo de una plataforma propia en Python y FastAPI para apoyar tareas de investigación
           y análisis SOC. Integra módulos de inteligencia de IP, dominios, correo y archivos; gestión
           local de IoC; correlación de eventos; y seguimiento manual de incidentes.
         </p>
         <p>
-          Diseñada con un enfoque de privacidad: el análisis local es la opción predeterminada y las
-          consultas a fuentes externas requieren una acción explícita del analista. El análisis de
-          archivos se basa en metadatos, hashes y revisión estructural; no ejecuta muestras ni las
-          envía automáticamente a terceros.
+          Su diseño prioriza la privacidad: el análisis local es la opción predeterminada y las consultas
+          a fuentes externas requieren una acción explícita del analista. El análisis de archivos se basa
+          en hashes, metadatos y revisión estructural; no ejecuta muestras ni las envía automáticamente
+          a terceros.
         </p>
-        <p><strong>Tecnologías:</strong> Python, FastAPI, SQLite, APIs REST.</p>
-        <p><a href="https://github.com/BELTRONIX-SECURITY/Kyros" target="_blank" rel="noopener noreferrer">Código fuente en GitHub</a></p>
-        <p><a href="https://kyros-soc.onrender.com" target="_blank" rel="noopener noreferrer">Demo de KYROS SOC</a></p>
-      </div>
+        <div class="project-tags"><span>Python</span><span>FastAPI</span><span>SQLite</span><span>Threat Intelligence</span><span>Privacy by Design</span></div>
+        <div class="project-links">
+          <a href="https://github.com/BELTRONIX-SECURITY/Kyros" target="_blank" rel="noopener noreferrer">Ver código fuente <span aria-hidden="true">↗</span></a>
+          <a href="https://kyros-soc.onrender.com" target="_blank" rel="noopener noreferrer">Abrir demo <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="project-caveat">KYROS es un MVP de apoyo al análisis; no se presenta como sustituto de un SIEM, EDR o sandbox empresarial.</p>
+      </article>
 
-      <div class="project">
-        <h3>Laboratorio SOC con Wazuh</h3>
-        <p>
-          Implementación de un entorno de laboratorio para centralizar y monitorizar eventos de
-          seguridad mediante Wazuh Manager y agentes Linux. Prácticas de configuración, generación
-          y revisión de alertas, y validación de eventos.
-        </p>
-        <p><strong>Tecnologías:</strong> Wazuh, Linux, Windows y monitorización de seguridad.</p>
-      </div>
+      <div class="project-grid">
+        <article class="project">
+          <h3>Laboratorio SOC con Wazuh</h3>
+          <p>
+            Implementación de un entorno de laboratorio para centralizar y monitorizar eventos de
+            seguridad mediante Wazuh Manager y agentes Linux. Prácticas de configuración, generación,
+            revisión y validación de alertas.
+          </p>
+          <div class="project-tags"><span>Wazuh</span><span>Linux</span><span>Security Monitoring</span></div>
+        </article>
 
-      <div class="project">
-        <h3>Dashboard de seguridad en Splunk</h3>
-        <p>
-          Desarrollo de paneles para visualizar eventos de seguridad, apoyar la revisión de alertas
-          y facilitar el análisis y la correlación de información relevante para operaciones SOC.
-        </p>
-        <p><strong>Tecnologías:</strong> Splunk, búsquedas y visualización de eventos.</p>
-      </div>
+        <article class="project">
+          <h3>Dashboard de seguridad en Splunk</h3>
+          <p>
+            Desarrollo de paneles para visualizar eventos de seguridad, apoyar la revisión de alertas
+            y facilitar el análisis y la correlación de información relevante para operaciones SOC.
+          </p>
+          <div class="project-tags"><span>Splunk</span><span>Dashboards</span><span>Event Analysis</span></div>
+        </article>
 
-      <div class="project">
-        <h3>Laboratorios y writeups CTF</h3>
-        <p>
-          Documentación de ejercicios prácticos en plataformas de formación como TryHackMe y
-          Hack The Box, centrados en fundamentos de seguridad, reconocimiento y análisis técnico
-          en entornos autorizados.
-        </p>
+        <article class="project">
+          <h3>Laboratorios y writeups CTF</h3>
+          <p>
+            Documentación de ejercicios prácticos en TryHackMe y Hack The Box, centrados en fundamentos
+            de seguridad, reconocimiento y análisis técnico en entornos de formación autorizados.
+          </p>
+          <div class="project-tags"><span>TryHackMe</span><span>Hack The Box</span><span>Learning Labs</span></div>
+        </article>
       </div>
     </section>
 
-    <section id="contact">
-      <h2>Contacto</h2>
-      <p>Correo: <a href="mailto:Leebeltran80@hotmail.com">Leebeltran80@hotmail.com</a></p>
-      <p><a href="https://www.linkedin.com/in/libardo-beltran-yepes" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
-      <p><a href="https://github.com/BELTRONIX-SECURITY" target="_blank" rel="noopener noreferrer">GitHub — BELTRONIX-SECURITY</a></p>
+    <section id="contact" class="section contact-section">
+      <p class="section-kicker">04 / CONTACTO</p>
+      <h2>Hablemos de ciberseguridad</h2>
+      <p>Disponible para oportunidades profesionales y colaboraciones relacionadas con operaciones SOC y ciberseguridad.</p>
+      <div class="contact-links">
+        <a class="button button-primary" href="mailto:Leebeltran80@hotmail.com">Enviar correo</a>
+        <a class="button button-secondary" href="https://www.linkedin.com/in/libardo-beltran-yepes" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a class="button button-secondary" href="https://github.com/BELTRONIX-SECURITY" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
     </section>
   </main>
 
   <footer>
     <p>© 2026 Libardo Beltrán Yepes · Portafolio profesional</p>
+    <a href="#home">Volver arriba ↑</a>
   </footer>
 </body>
 </html>
